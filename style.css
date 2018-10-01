@@ -1,5 +1,9 @@
+body {
+	font-family: arial;
+}
+
 .nav-bar {
-    display: flex; 
+   display: flex; 
    justify-content: flex-end; 
 }
 
@@ -13,31 +17,60 @@
 .nav-bar li{
 	margin: 0px 30px; 
 }
-.nav-bar a{
-	text-decoration:none; 
-	color:#000000;
-}
 
+.nav-bar a{
+	text-decoration: none; 
+	color: #000000;
+}
 .nav-bar a:hover{
 	text-decoration: underline;
 }
+
 
 .icone-menu{
 	width: 30px;
 	height: 30px;
 	opacity: 0.55;
 }
-
 .icone-menu:hover{
-opacity: 0.85;
+	opacity: 0.85;
 }
 
 
 .btn-connexion{
 	background-color: #5088f2;
 	padding: 5px 12px;
-	color: #ffffff!important;
+	color: #ffffff !important;
 }
 .btn-connexion a:hover{
-	text-decoration: none!important;
+	text-decoration: none !important;
+}
+
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	width: 272px;
+	height: 92px;
+	margin-top: 150px;
+}
+
+.input-text {
+	width: 584px;
+	height: 44px;
+	font-size: 16px;
+	padding: 0 16px;
+	margin: 20px 0 20px 0;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	transition: 0.5s;
+}
+.input-text:hover {
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
