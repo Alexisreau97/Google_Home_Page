@@ -1,21 +1,43 @@
-.nav {
+.nav-bar {
     display: flex; 
-}
-
-.nav a {
-padding: 1em;
- display: block;
+   justify-content: flex-end; 
 }
 
 .nav-bar ul{
-list-style: none;
-	
+	list-style: none;
+	display: flex; 
+	flex-direction : row; 
+	margin-left: 2em;
 }
 
 .nav-bar li{
-	 display: flex; 
-    flex-direction : row; 
-    justify-content: flex-end; 
-
+	margin: 0px 30px; 
+}
+.nav-bar a{
+	text-decoration:none; 
+	color:#000000;
 }
 
+.nav-bar a:hover{
+	text-decoration: underline;
+}
+
+.icone-menu{
+	width: 30px;
+	height: 30px;
+	opacity: 0.55;
+}
+
+.icone-menu:hover{
+opacity: 0.85;
+}
+
+
+.btn-connexion{
+	background-color: #5088f2;
+	padding: 5px 12px;
+	color: #ffffff!important;
+}
+.btn-connexion a:hover{
+	text-decoration: none!important;
+}
