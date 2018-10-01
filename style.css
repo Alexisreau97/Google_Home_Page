@@ -1,0 +1,21 @@
+.nav {
+    display: flex; 
+}
+
+.nav a {
+padding: 1em;
+ display: block;
+}
+
+.nav-bar ul{
+list-style: none;
+	
+}
+
+.nav-bar li{
+	 display: flex; 
+    flex-direction : row; 
+    justify-content: flex-end; 
+
+}
+
