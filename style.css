@@ -151,16 +151,14 @@ footer a:hover{
 
 .link-left {
 	display: flex;
-	justify-content: flex-start;
 	padding-left: 27px;
 }
 
 .space {
-	padding-right: 45%;
+	padding-right: 100vh;
 }
 
 .link-right {
 	display: flex;
-	justify-content: flex-end;
 	padding-right: 27px;
 }
